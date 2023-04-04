@@ -19,7 +19,7 @@ header
 .header-wrapper {
     width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 0 auto;
 }
 
@@ -344,9 +344,13 @@ SP
     .header p {
         font-size: 0.675rem;
     }
-    
+
     .hamburger {
-    display: block;
+        display: block;
+    }
+
+    .header-wrapper {
+        justify-content: space-between;
     }
 
 /*----------------------------------------
