@@ -70,6 +70,10 @@ hamburger
     top: 45px;
 }
 
+.hamburger {
+    display: none;
+}
+
 /*----------------------------------------
 mainvisual
 ----------------------------------------*/
@@ -339,6 +343,10 @@ SP
 
     .header p {
         font-size: 0.675rem;
+    }
+    
+    .hamburger {
+    display: block;
     }
 
 /*----------------------------------------
